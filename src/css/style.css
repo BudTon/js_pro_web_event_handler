@@ -1,0 +1,64 @@
+body {
+  color: #999;
+}
+
+.game-field {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  height: 320px;
+  width: 320px;
+  padding-top: 30px;
+}
+
+.goblin-burrow {
+  list-style-type: none;
+  height: 80px;
+  width: 80px;
+  box-sizing: border-box;
+  background: gray;
+  border: 3px solid #2E9AFF;
+}
+
+.standings {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 200px;
+  font-size: 20px;
+  /* height: auto; */
+  
+}
+
+.count-attempts{
+  color: blue;
+  margin: auto;
+}
+.count-missed {
+  color: red;
+  margin: auto;
+  /* width: 50px; */
+}
+
+.count-hit {
+  color: green;
+  margin: auto;
+}
+
+.img-goblin {
+  width: 100%;
+}
+
+.hammer {
+  cursor:
+    url('../img/hammer.png') 4 1,
+    pointer;
+}
+
+.hammer-down {
+  cursor:
+    url('../img/hammer-down.png') 4 1,
+    pointer;
+}
